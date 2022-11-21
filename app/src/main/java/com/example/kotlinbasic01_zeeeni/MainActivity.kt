@@ -10,6 +10,14 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+//        문법 연습 (변수)
+
+//        변수 만들기
+        val myName = "코딩티쳐지니" // value : 상수, 변수 생성 + 대입 => 변수의 초기화
+//        var myAge : Int // variable : 변수
+        Log.d("변수값", myName)
+
         clickBtn.setOnClickListener {
 
             // 코드에 메모 남기기 - 주석
